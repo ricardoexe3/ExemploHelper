@@ -34,7 +34,6 @@ var
 implementation
 
 {$R *.dfm}
-
 procedure TFrmEstudoDelphi.BtnCarregaDadosClick(Sender: TObject);
 begin
  QryDados.Close;
@@ -44,7 +43,6 @@ begin
  QryDados.First;
 end;
 { SetOpen }
-
 procedure SetOpen.SetOpen(SQL: string);
 begin
  Self.Close;
